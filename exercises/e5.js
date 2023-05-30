@@ -15,10 +15,9 @@
 const getDiffTwentySeven = (num) => {
   if ( num < 27){
     return 27 - num;
-  }else{
-    return (num - 27) * 2;
   }
-}
+    return (num - 27) * 2;
+  };
 
 
 
@@ -34,10 +33,9 @@ const sumOfTwoIntegers = (num1,num2) => {
   let x = num1 + num2;
   if (num1 === num2){
     return x * 3;
-  }else{
-    return x;
   }
-}
+    return x;
+  };
 
 
 
@@ -51,14 +49,9 @@ const sumOfTwoIntegers = (num1,num2) => {
  */
 
 // Your code goes here...
-const isOneOfThemOrTheirSumIsFourty = (num1,num2) =>{
-  let sum = num1 + num2;
-  let boolean = false;
-  if (num1 === 40 || num2 === 40 || sum === 40){
-    return boolean = true;
-  }
-  return boolean;
-}
+const isOneOfThemOrTheirSumIsFourty = (num1,num2) =>
+  num1 === 40 || num2 === 40 || num1 + num2 === 40;
+
 
 
 
